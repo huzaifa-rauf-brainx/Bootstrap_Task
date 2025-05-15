@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ageless Multi-Collagen® Protein Powder | BioTRUST</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/CSS/index.css">
+</head>
+
+<body class="page_body">
+    <nav class="navbar" aria-label="breadcrumb">
+        <ol class="breadcrumb mt-3 px-3">
+            <li class="breadcrumb-item"><a href="https://www.biotrust.com/"
+                    class="nav_link text-decoration-none text-uppercase">Home</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a
+                    href="https://www.biotrust.com/collections/collagen-protein"
+                    class="nav_link text-decoration-none text-uppercase">Collagen Protein</a></li>
+        </ol>
+    </nav>
+    <a href="#" class="chat-button d-flex align-items-center justify-content-center text-decoration-none zindex-fixed">
+        <i class="bi bi-chat-fill me-2 fs-5"></i>
+        <strong>Let's chat!</strong>
+    </a>
+    <section class="product-card d-flex flex-column flex-md-row col-md-12">
+        <div class="col-lg-6 px-0 px-sm-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 order-lg-1 order-2 thumbnail-col d-flex justify-content-center">
+                        <div class="d-flex flex-column align-items-center d-lg-block d-none">
+                            <button id="thumb-up"
+                                class="border-0 bg-transparent p-0 mb-2 w-100 d-flex justify-content-center">
+                                <span class="carousel-control-prev-icon carousel-previous-icon">
+                                    <svg fill="#ECECED" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                                        width="100%" height="100%">
+                                        <path fill-rule="evenodd"
+                                            d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z" />
+                                    </svg>
+                                </span>
+                            </button>
+                            <div id="thumb-container" class="w-100 overflow-hidden product-sidebar-images">
+                                <div id="thumb-wrapper" class="d-flex flex-column align-items-center">
+                                </div>
+                            </div>
+                            <button id="thumb-down"
+                                class="border-0 bg-transparent p-0 mb-2 w-100 d-flex justify-content-center">
+                                <span class="carousel-control-prev-icon carousel-next-icon">
+                                    <svg fill="#ECECED" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                                        width="100%" height="100%">
+                                        <path fill-rule="evenodd"
+                                            d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z" />
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 order-lg-2 order-1">
+                        <div class="product-card-main d-flex flex-column align-items-center">
+                            <h1 class="product-card-name text-center text-uppercase fw-bold">AGELESS MULTI-COLLAGEN®
+                                PROTEIN
+                                POWDER</h1>
+                            <div class="d-flex justify-content-center product-rating-star">
+                                <i class="bi bi-star-fill fs-6 me-1"></i>
+                                <i class="bi bi-star-fill fs-6 me-1"></i>
+                                <i class="bi bi-star-fill fs-6 me-1"></i>
+                                <i class="bi bi-star-fill fs-6 me-1"></i>
+                                <i class="bi bi-star-fill fs-6 me-1"></i>
+                                <a href="#" class="text-decoration-none align-self-center product-rating-review">3548
+                                    Reviews</a>
+                            </div>
+                            <div id="media-display-container"
+                                class="d-flex justify-content-center align-items-center position-relative">
+                                <div class="d-none d-md-block d-lg-none me-2">
+                                    <button id="tablet-prev" class="tablet-carousel-btn">
+                                        <i class="bi bi-chevron-left"></i>
+                                    </button>
+                                </div>
+                                <div class="d-md-none me-1">
+                                    <button id="mobile-prev" class="tablet-carousel-btn">
+                                        <i class="bi bi-chevron-left"></i>
+                                    </button>
+                                </div>
+                                <div id="media-display" class="media-display">
+                                    <div class="image-container">
+                                        <img id="main-image" src="assets/images/image1.webp" class="d-block"
+                                            alt="Main product image">
+                                    </div>
+                                    <div id="video-container"
+                                        class="d-none d-flex justify-content-center align-items-center">
+                                        <video id="main-video" controls playsinline>
+                                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block d-lg-none ms-2">
+                                    <button id="tablet-next" class="tablet-carousel-btn">
+                                        <i class="bi bi-chevron-right"></i>
+                                    </button>
+                                </div>
+                                <div class="d-md-none ms-1">
+                                    <button id="mobile-next" class="tablet-carousel-btn">
+                                        <i class="bi bi-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="d-lg-none d-md-block d-none mt-2 mb-3 text-center">
+                                <div id="tablet-indicators" class="position-relative d-inline-flex">
+                                </div>
+                            </div>
+                            <div class="d-md-none d-block mt-3 mb-3 text-center">
+                                <div class="mobile-indicator-wrapper">
+                                    <div id="mobile-indicators" class="d-inline-flex justify-content-center">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-10 col-md-9 product-videos-button mb-3 d-lg-none d-flex justify-content-center">
+                                <a href="#" id="watch-video-button" class="text-decoration-none product-videos-heading">
+                                    Watch Product Videos
+                                </a>
+                            </div>
+                            <img src="assets/images/product-card-footer.avif" alt="product-card-footer"
+                                class="product-card-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+            <div>
+                <h1 class="text-center product-card-name mt-0">Choose Your Package</h1>
+                <p class="text-center">Select your money-saving option below:</p>
+            </div>
+            <div class="row gx-2 mb-4 package-purchase-plans" id="purchaseTab" role="tablist">
+                <div class="col-6">
+                    <button class="nav-link w-100 h-100 py-3 text-white active package-tab package-one-time"
+                        id="one-time-tab" data-bs-toggle="tab" data-bs-target="#one-time" type="button" role="tab"
+                        aria-controls="one-time" aria-selected="true">
+                        One-Time Purchase
+                    </button>
+                </div>
+                <div class="col-6 position-relative">
+                    <button class="nav-link w-100 h-100 py-3 package-tab-fifty" id="subscribe-tab" data-bs-toggle="tab"
+                        data-bs-target="#subscribe" type="button" role="tab" aria-controls="subscribe"
+                        aria-selected="false">
+                        Subscribe & Save Up To 50%
+                    </button>
+                    <span id="subscribe-help">
+                    </span>
+                    <div class="tooltip-wrapper position-absolute top-0 end-0 translate-middle-x translate-middle-y">
+                        <span
+                            class="rounded-circle text-white fw-bold d-flex align-items-center justify-content-center help-icon">
+                            ?
+                        </span>
+                        <div class="bg-white rounded shadow-sm subscribe-tooltip text-center position-absolute d-none">
+                            <h2 class="mb-2 tooltip-main-heading">Subscribe & Save</h2>
+                            <p class="small mb-3">When you subscribe to this BioTRUST product, you will receive <span
+                                    class="fw-bold">up to
+                                    50% OFF plus FREE Shipping</span> on every recurring order and the price is <span
+                                    class="fw-bold">guaranteed to NEVER go up!</span></p>
+                            <p class="small mb-0"><span class="fw-bold">You are never under any obligation.</span> You
+                                can easily pause or cancel
+                                Subscribe & Save at any time by phone or email, and never be billed again. Plus, you're
+                                backed by our 60-Day Money-Back Guarantee!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="purchaseTabContent">
+                <div class="tab-pane show active" id="one-time" role="tabpanel" aria-labelledby="one-time-tab">
+                    <div class="row product-package-plan gy-3">
+                        <div class="col-12 col-md-12 col-lg-4 product-package-plan-1 p-0">
+                            <div class="d-flex flex-row flex-lg-column align-items-center text-center">
+                                <div class="d-block d-lg-none">
+                                    <img src="assets/images/buy-1-pack.avif" alt="Package Image" class="img-fluid">
+                                </div>
+                                <div class="flex-grow-1 package-main-content ms-3 ms-lg-0">
+                                    <p class="package-main-heading">1 Pack</p>
+                                    <p class="package-sub-heading">$49</p>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button
+                                        class="btn btn-lg text-uppercase text-light package-button mb-lg-2 d-flex justify-content-center">
+                                        <p class="package-button-heading mb-0">Choose Flavor</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-4 product-package-plan-2 p-0 p-lg-3 position-relative">
+                            <div class="most-popular-banner text-center d-none d-lg-block">Most Popular</div>
+
+                            <div class="d-flex flex-row flex-lg-column align-items-center text-center">
+                                <div class="d-block d-lg-none">
+                                    <img src="assets/images/buy-3-pack.avif" alt="Package Image" class="img-fluid">
+                                </div>
+                                <div class="flex-grow-1 package-main-content ms-3 ms-lg-0">
+                                    <p class="package-main-heading">3 Packs</p>
+                                    <div
+                                        class="package-sub-heading d-flex d-lg-block align-items-baseline align-items-lg-start gap-1 gap-lg-0 mb-0 mb-lg-2">
+                                        <div class="mb-0 d-lg-flex flex-column">
+                                            $35
+                                            <span class="ms-lg-1 package-per-pack">Per
+                                                Pack</span>
+                                        </div>
+                                    </div>
+                                    <div class="package-price-save">
+                                        <p class="mb-0">(Save 29%)</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column align-items-center">
+                                    <button
+                                        class="btn btn-lg text-uppercase text-light package-button mt-3 mb-2 mb-lg-2 d-flex justify-content-center">
+                                        <p class="package-button-heading mb-0">Choose Flavor</p>
+                                    </button>
+                                    <p class="mt-1 d-block d-lg-none fst-italic package-speical">Most Popular!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-4 product-package-plan-3 p-0 p-lg-3 position-relative">
+                            <div class="d-flex flex-row flex-lg-column align-items-center text-center">
+                                <div class="d-block d-lg-none">
+                                    <img src="assets/images/buy-6-pack.avif" alt="Package Image" class="img-fluid">
+                                </div>
+                                <div class="flex-grow-1 package-main-content ms-3 ms-lg-0">
+                                    <p class="package-main-heading mt-lg-0">6 Packs</p>
+                                    <div
+                                        class="package-sub-heading d-flex d-lg-block align-items-baseline align-items-lg-start gap-1 gap-lg-0 mb-0 mb-lg-2">
+                                        <div class="mb-0 d-lg-flex flex-column">
+                                            $31
+                                            <span class="ms-lg-1 package-per-pack">Per
+                                                Pack</span>
+                                        </div>
+                                    </div>
+                                    <div class="package-price-save">
+                                        <p class="mb-0">(Save 36%)</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center mt-lg-2">
+                                    <button
+                                        class="btn btn-lg text-uppercase text-light package-button mb-lg-2 d-flex justify-content-center">
+                                        <p class="package-button-heading mb-0">Choose Flavor</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="subscribe" role="tabpanel" aria-labelledby="subscribe-tab">
+                    <div class="row product-package-plan gy-3">
+                        <div class="col-12 col-md-12 col-lg-4 subscribe-package-plan-1 p-0">
+                            <div class="d-flex flex-row flex-lg-column align-items-center text-center">
+                                <div class="d-block d-lg-none">
+                                    <img src="assets/images/buy-1-pack.avif" alt="Package Image" class="img-fluid">
+                                </div>
+                                <div class="flex-grow-1 subscribe-package-main ms-2 ms-lg-0">
+                                    <h2 class="fw-bold mb-md-0 mt-lg-4 package-pack-amount">1 Pack</h2>
+                                    <div class="subscribe-duration">Every
+                                        1 Month</div>
+                                    <div class="package-price-was fw-bold text-decoration-line-through">$49</div>
+                                    <div class="mb-0 subscribe-price">
+                                        $29.40
+                                        <span class="ms-lg-1 subscribe-price">Per
+                                            Pack</span>
+                                    </div>
+                                    <div class="fw-bold mb-0 subscribe-save">(Save $19.60)
+                                    </div>
+                                    <div class="mb-md-0 mb-lg-2 fw-bold subscribe-free-shipping">+ FREE SHIPPING</div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button
+                                        class="btn btn-lg text-uppercase text-light package-button mb-lg-2 d-flex justify-content-center">
+                                        <p class="package-button-heading mb-0">Choose Flavor</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-4 subscribe-package-plan-2 p-0">
+                            <div class="d-flex flex-row flex-lg-column align-items-center text-center">
+                                <div class="d-block d-lg-none">
+                                    <img src="assets/images/buy-3-pack.avif" alt="Package Image" class="img-fluid">
+                                </div>
+                                <div class="flex-grow-1 subscribe-package-main ms-2 ms-lg-0">
+                                    <h2 class="fw-bold mb-md-0 mt-lg-4 package-pack-amount">3 Packs</h2>
+                                    <div class="subscribe-duration">Every
+                                        3 Month</div>
+                                    <div class="package-price-was text-decoration-line-through">$49</div>
+                                    <div class="mb-0 subscribe-price">
+                                        $26.95
+                                        <span class="ms-lg-1 subscribe-price">Per
+                                            Pack</span>
+                                    </div>
+                                    <div class="fw-bold mb-0 subscribe-save">(Save $66.15)
+                                    </div>
+                                    <div class="mb-md-0 mb-lg-2 fw-bold subscribe-free-shipping">+ FREE SHIPPING</div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button
+                                        class="btn btn-lg text-uppercase text-light package-button mb-lg-2 d-flex justify-content-center">
+                                        <p class="package-button-heading mb-0">Choose Flavor</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-4 subscribe-package-plan-3 p-0 position-relative">
+                            <div class="most-popular-banner text-center d-none d-lg-block">Most Savings</div>
+                            <div class="d-flex flex-row flex-lg-column align-items-center text-center">
+                                <div class="d-block d-lg-none">
+                                    <img src="assets/images/buy-6-pack.avif" alt="Package Image" class="img-fluid">
+                                </div>
+                                <div class="flex-grow-1 subscribe-package-main ms-2 ms-lg-0">
+                                    <h2 class="fw-bold mb-md-0 mt-lg-4 package-pack-amount mt-lg-5">6 Packs</h2>
+                                    <div class="subscribe-duration">Every
+                                        6 Month</div>
+                                    <div class="package-price-was text-decoration-line-through">$49</div>
+                                    <div class="mb-0 subscribe-price">
+                                        $24.50
+                                        <span class="ms-lg-1 subscribe-price">Per
+                                            Pack</span>
+                                    </div>
+                                    <div class="fw-bold mb-0 subscribe-save">(Save $147)
+                                    </div>
+                                    <div class="mb-md-0 mb-lg-2 fw-bold subscribe-free-shipping">+ FREE SHIPPING</div>
+                                </div>
+                                <div class="d-flex flex-column align-items-center">
+                                    <button
+                                        class="btn btn-lg text-uppercase text-light package-button mb-2 mb-lg-2 d-flex justify-content-center">
+                                        <p class="package-button-heading mb-0">Choose Flavor</p>
+                                    </button>
+                                    <p class="mt-2 d-block d-lg-none fst-italic package-speical">Most Savings!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mb-5">
+                <div class="row">
+                    <section class="col-12 mx-auto community-photos-section mt-5">
+                        <h2 class="fs-5 text-center fw-bold mb-4 community-section-heading">
+                            PHOTOS FROM THE #biotrust COMMUNITY
+                        </h2>
+                        <div class="position-relative community-carousel-container">
+                            <button class="community-arrow left-arrow">
+                                <i class="bi bi-chevron-left fs-1"></i>
+                            </button>
+                            <div class="community-photos-carousel overflow-hidden">
+                                <div class="community-photos d-flex">
+                                    <div class="community-photo-item position-relative overflow-hidden">
+                                        <img src="assets/images/bottom-img-1.webp" alt="Community photo 1"
+                                            class="img-fluid w-100">
+                                        <div
+                                            class="photo-hover-overlay d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-instagram fs-1 text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div class="community-photo-item position-relative overflow-hidden">
+                                        <img src="assets/images/bottom-img-2.webp" alt="Community photo 1"
+                                            class="img-fluid w-100">
+                                        <div
+                                            class="photo-hover-overlay d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-instagram fs-1 text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div class="community-photo-item position-relative overflow-hidden">
+                                        <img src="assets/images/bottom-img-4.webp" alt="Community photo 1"
+                                            class="img-fluid w-100">
+                                        <div
+                                            class="photo-hover-overlay d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-instagram fs-1 text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div class="community-photo-item position-relative overflow-hidden">
+                                        <img src="assets/images/bottom-img-5.webp" alt="Community photo 1"
+                                            class="img-fluid w-100">
+                                        <div
+                                            class="photo-hover-overlay d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-instagram fs-1 text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div class="community-photo-item position-relative overflow-hidden">
+                                        <img src="assets/images/bottom-img-6.webp" alt="Community photo 1"
+                                            class="img-fluid w-100">
+                                        <div
+                                            class="photo-hover-overlay d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-instagram fs-1 text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div class="community-photo-item position-relative overflow-hidden">
+                                        <img src="assets/images/bottom-img-7.webp" alt="Community photo 1"
+                                            class="img-fluid w-100">
+                                        <div
+                                            class="photo-hover-overlay d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-instagram fs-1 text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div class="community-photo-item position-relative overflow-hidden">
+                                        <img src="assets/images/bottom-img-8.webp" alt="Community photo 1"
+                                            class="img-fluid w-100">
+                                        <div
+                                            class="photo-hover-overlay d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-instagram fs-1 text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div class="community-photo-item position-relative overflow-hidden">
+                                        <img src="assets/images/bottom-img-9.webp" alt="Community photo 1"
+                                            class="img-fluid w-100">
+                                        <div
+                                            class="photo-hover-overlay d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-instagram fs-1 text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div class="community-photo-item position-relative overflow-hidden">
+                                        <img src="assets/images/bottom-img-10.webp" alt="Community photo 1"
+                                            class="img-fluid w-100">
+                                        <div
+                                            class="photo-hover-overlay d-flex justify-content-center align-items-center">
+                                            <i class="bi bi-instagram fs-1 text-white"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="community-arrow right-arrow">
+                                <i class="bi bi-chevron-right fs-1"></i>
+                            </button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-review-videos">
+        <div class="container-fluid p-0 mt-4">
+            <div class="row g-0 product-plus-points">
+                <div class="col-lg-5 col 12">
+                    <p class="product-plus-main-heading mb-4 fw-bold">The No-Clump Multi-Collagen Protein Powder</p>
+                    <p class="mb-0 fw-bold product-plus-sub-heading">Ageless Multi-Collagen Provides You 5 Types of
+                        Collagen to Support:</p>
+                    <ul>
+                        <li class="product-plus-item">Healthy Skin, Hair, and Nails</li>
+                        <li class="product-plus-item">Gut, Joint, and Bone Health</li>
+                        <li class="product-plus-item">Athletic Performance, Recovery, and an Active Lifestyle</li>
+                    </ul>
+                    <p class="mb-0 fw-bold">Plus, Every Serving of Ageless Multi-Collagen is:</p>
+                    <ul>
+                        <li class="product-plus-item">Loaded with 10 Grams of Collagen Protein (per serving) including
+                            BioActive Collagen Peptides</li>
+                        <li class="product-plus-item">A Complete Protein Source Featuring 140mg of Tryptophan</li>
+                        <li class="product-plus-item">Tasteless and Odorless or Available in Delicious Flavors</li>
+                        <li class="product-plus-item">Mixes Instantly WITHOUT Clumps (in hot or cool liquids)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-0 features-row">
+                <div class="col-12 mb-1 mt-3">
+                    <div class="row g-0 text-center feature-main">
+                        <div class="col-6 col-lg-3 feature-column d-flex flex-column align-items-stretch">
+                            <div class="icon-container">
+                                <img src="assets/images/site-footer-img.avif" alt="Protein icon" class="feature-icon">
+                            </div>
+                            <div class="feature-box flex-grow-1 d-flex align-items-center justify-content-center">
+                                <p class="feature-text">60-DAY MONEY BACK GUARANTEE</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 feature-column d-flex flex-column align-items-stretch">
+                            <div class="icon-container">
+                                <img src="assets/images/site-footer-img-2.png" alt="Protein icon" class="feature-icon">
+                            </div>
+                            <div class="feature-box flex-grow-1 d-flex align-items-center justify-content-center">
+                                <p class="feature-text">COMPLETE, 5-COLLAGEN PROTEIN</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 feature-column d-flex flex-column align-items-stretch">
+                            <div class="icon-container">
+                                <img src="assets/images/site-footer-img-3.png" alt="Protein icon" class="feature-icon">
+                            </div>
+                            <div class="feature-box flex-grow-1 d-flex align-items-center justify-content-center">
+                                <p class="feature-text">HORMONE & GLUTEN-FREE & NON-GMO</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 feature-column d-flex flex-column align-items-stretch">
+                            <div class="icon-container">
+                                <img src="assets/images/site-footer-img-4.png" alt="Protein icon" class="feature-icon">
+                            </div>
+                            <div class="feature-box flex-grow-1 d-flex align-items-center justify-content-center">
+                                <p class="feature-text">NEVER CLUMPS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-0 review-section">
+                <div class="col-12">
+                    <div class="review-container p-4">
+                        <div class="row g-0 d-flex flex-column flex-md-row">
+                            <div class="col-md-4 review-heading position-relative pb-4 pb-md-0 pe-md-5">
+                                <h2 class="mb-4 text-white review-main-heading">FEATURED CUSTOMER REVIEW</h2>
+                                <p class="read-more"><a href="#" class="text-decoration-none read-more">Read more
+                                        reviews</a></p>
+                                <div class="separator"></div>
+                            </div>
+                            <div class="col-md-8 review-content text-center">
+                                <div class="stars mb-3 mt-3">
+                                    <i class="bi bi-star-fill fs-3 me-1"></i>
+                                    <i class="bi bi-star-fill fs-3 me-1"></i>
+                                    <i class="bi bi-star-fill fs-3 me-1"></i>
+                                    <i class="bi bi-star-fill fs-3 me-1"></i>
+                                    <i class="bi bi-star-fill fs-3 me-1"></i>
+                                </div>
+                                <p class="review-text fs-4 mb-3">"I love it! No taste or smell. I put it in my coffee
+                                    first thing. Cuts my hunger and gives me energy."</p>
+                                <p class="reviewer-name fst-italic mb-1">Jacqueline T.</p>
+                                <p class="verified-buyer fw-bold">VERIFIED BUYER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-0 videos-section py-5">
+                <div class="col-12 text-center">
+                    <h2 class="videos-title mb-5 fw-bold text-white fs-1">Product Videos</h2>
+                    <div class="main-video-container mb-4 mx-auto">
+                        <div class="video-wrapper">
+                            <img src="https://i.vimeocdn.com/video/738131621-005d69ec0ab0b35c9251a0af62294cfd54ba699e39599562aa00049444d1b299-d?mw=2000&mh=1126&q=70"
+                                alt="Collagen Tip Thumbnail" class="img-fluid w-100 h-100">
+                        </div>
+                    </div>
+                    <div class="row g-0 mx-auto col-10">
+                        <div class="col-md-6 col-12">
+                            <div class="side-video-container mx-auto mb-4 mb-md-0 me-lg-5 text-center">
+                                <div class="video-wrapper">
+                                    <img src="https://i.vimeocdn.com/video/734215034-51881f0068f731af64d1482fe08d067fd29def2129aa4f3a69cef416e2d642d3-d?mw=1200&mh=675&q=70"
+                                        alt="Collagen Tip Thumbnail" class="img-fluid w-100 h-100">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="side-video-container mx-auto mb-4 mb-md-0 me-lg-5 text-center">
+                                <div class="video-wrapper">
+                                    <img src="https://i.vimeocdn.com/video/734214895-3e3b03cad934d044d9456a04538aeb0f2327ac4ba45bd85037a6c525e4ce2cbf-d?mw=1300&mh=731&q=70"
+                                        alt="Collagen Tip Thumbnail" class="img-fluid w-100 h-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mainImage = document.getElementById('main-image');
+            const videoContainer = document.getElementById('video-container');
+            const mainVideo = document.getElementById('main-video');
+            const thumbWrapper = document.getElementById('thumb-wrapper');
+            const mobileIndicators = document.getElementById('mobile-indicators');
+            const mobilePrev = document.getElementById('mobile-prev');
+            const mobileNext = document.getElementById('mobile-next');
+            const tabletIndicators = document.getElementById('tablet-indicators');
+            const tabletPrev = document.getElementById('tablet-prev');
+            const tabletNext = document.getElementById('tablet-next');
+            const totalImages = 15;
+            let currentImageIndex = 1;
+            for (let i = 1; i <= totalImages; i++) {
+                const thumb = document.createElement('img');
+                thumb.className = 'img-thumbnail mb-2 thumb';
+                thumb.src = `assets/images/image${i}.webp`;
+                thumb.dataset.index = i;
+                thumb.addEventListener('click', () => {
+                    updateMainMedia(i);
+                });
+                thumbWrapper.appendChild(thumb);
+                const mobileDot = document.createElement('div');
+                mobileDot.className = i === 1 ? 'indicator-dot active' : 'indicator-dot';
+                mobileDot.dataset.index = i;
+                mobileDot.addEventListener('click', () => {
+                    updateMainMedia(i);
+                    updateActiveDot(i);
+                    currentImageIndex = i;
+                });
+                mobileIndicators.appendChild(mobileDot);
+                const tabletDot = document.createElement('div');
+                tabletDot.className = i === 1 ? 'indicator-dot active' : 'indicator-dot';
+                tabletDot.dataset.index = i;
+                tabletDot.addEventListener('click', () => {
+                    updateMainMedia(i);
+                    updateActiveDot(i);
+                    currentImageIndex = i;
+                });
+                tabletIndicators.appendChild(tabletDot);
+            }
+            mobilePrev.addEventListener('click', () => {
+                currentImageIndex = currentImageIndex > 1 ? currentImageIndex - 1 : totalImages;
+                updateMainMedia(currentImageIndex);
+                updateActiveDot(currentImageIndex);
+            });
+            mobileNext.addEventListener('click', () => {
+                currentImageIndex = currentImageIndex < totalImages ? currentImageIndex + 1 : 1;
+                updateMainMedia(currentImageIndex);
+                updateActiveDot(currentImageIndex);
+            });
+            tabletPrev.addEventListener('click', () => {
+                currentImageIndex = currentImageIndex > 1 ? currentImageIndex - 1 : totalImages;
+                updateMainMedia(currentImageIndex);
+                updateActiveDot(currentImageIndex);
+            });
+            tabletNext.addEventListener('click', () => {
+                currentImageIndex = currentImageIndex < totalImages ? currentImageIndex + 1 : 1;
+                updateMainMedia(currentImageIndex);
+                updateActiveDot(currentImageIndex);
+            });
+            function updateMainMedia(index) {
+                if (index === 15) {
+                    mainImage.parentElement.classList.add('d-none');
+                    videoContainer.classList.remove('d-none');
+                    mainVideo.currentTime = 0;
+                    mainVideo.load();
+                } else {
+                    videoContainer.classList.add('d-none');
+                    mainImage.parentElement.classList.remove('d-none');
+                    mainImage.src = `assets/images/image${index}.webp`;
+                    mainVideo.pause();
+                }
+                updateActiveDot(index);
+            }
+            function updateActiveDot(index) {
+                document.querySelectorAll('.indicator-dot').forEach(dot => {
+                    dot.classList.remove('active');
+                    if (parseInt(dot.dataset.index) === index) {
+                        dot.classList.add('active');
+                    }
+                });
+            }
+            const container = document.getElementById('thumb-container');
+            const step = 100;
+            document.getElementById('thumb-up').addEventListener('click', () => {
+                if (container.scrollTop === 0) {
+                    container.scrollTop = container.scrollHeight;
+                } else {
+                    container.scrollBy({ top: -step, behavior: 'smooth' });
+                }
+            });
+            document.getElementById('thumb-down').addEventListener('click', () => {
+                if (Math.ceil(container.scrollTop + container.clientHeight) >= container.scrollHeight) {
+                    container.scrollTop = 0;
+                } else {
+                    container.scrollBy({ top: step, behavior: 'smooth' });
+                }
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            const oneTimeBtn = document.getElementById('one-time-tab');
+            const subscribeBtn = document.getElementById('subscribe-tab');
+            function setActive(btn) {
+                btn.classList.add('text-white', 'border-0');
+                btn.classList.remove('text-biotrust-primary');
+                btn.style.backgroundColor = '#0B4F9A';
+            }
+            function setInactive(btn) {
+                btn.classList.remove('text-white', 'border-0');
+                btn.classList.add('text-biotrust-primary');
+                btn.style.backgroundColor = '#fff';
+                btn.style.border = '2px solid #0B4F9A';
+            }
+            oneTimeBtn.addEventListener('shown.bs.tab', function () {
+                setActive(oneTimeBtn);
+                setInactive(subscribeBtn);
+            });
+            subscribeBtn.addEventListener('shown.bs.tab', function () {
+                setActive(subscribeBtn);
+                setInactive(oneTimeBtn);
+            });
+        });
+
+        document.getElementById('subscribe-help').addEventListener('click', function () {
+            document.getElementById('subscribe-tooltip').classList.toggle('d-none');
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const container = document.querySelector(".community-photos");
+            const leftBtn = document.querySelector(".left-arrow");
+            const rightBtn = document.querySelector(".right-arrow");
+
+            let scrollX = 0;
+            const step = 240;
+
+            rightBtn.addEventListener("click", () => {
+                const maxScroll = container.scrollWidth - container.clientWidth;
+                scrollX = Math.min(scrollX + step, maxScroll);
+                container.style.transform = `translateX(-${scrollX}px)`;
+            });
+
+            leftBtn.addEventListener("click", () => {
+                scrollX = Math.max(scrollX - step, 0);
+                container.style.transform = `translateX(-${scrollX}px)`;
+            });
+        });
+        document.addEventListener('DOMContentLoaded', () => {
+            const mainImage = document.getElementById('main-image');
+            const videoContainer = document.getElementById('video-container');
+            const mainVideo = document.getElementById('main-video');
+            const watchVideoBtn = document.getElementById('watch-video-button');
+            if (watchVideoBtn) {
+                watchVideoBtn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    mainImage.parentElement.classList.add('d-none');
+                    videoContainer.classList.remove('d-none');
+                    mainVideo.currentTime = 0;
+                    mainVideo.load();
+                    mainVideo.play();
+                    document.getElementById('media-display').scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'center',
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
