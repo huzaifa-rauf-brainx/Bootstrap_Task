@@ -16,7 +16,7 @@
 </head>
 
 <body class="page_body">
-    <nav class="navbar" aria-label="breadcrumb">
+    <nav class="navbar d-none d-md-block" aria-label="breadcrumb">
         <ol class="breadcrumb mt-3 px-3">
             <li class="breadcrumb-item"><a href="https://www.biotrust.com/"
                     class="nav_link text-decoration-none text-uppercase">Home</a></li>
@@ -63,15 +63,18 @@
                     </div>
                     <div class="col-lg-9 order-lg-2 order-1">
                         <div class="product-card-main d-flex flex-column align-items-center">
-                            <h1 class="product-card-name text-center text-uppercase fw-bold">AGELESS MULTI-COLLAGEN®
+                            <h1 class="product-card-name text-center text-uppercase fw-bold mt-md-0 mt-5">AGELESS
+                                MULTI-COLLAGEN®
                                 PROTEIN
                                 POWDER</h1>
-                            <div class="d-flex justify-content-center product-rating-star">
-                                <i class="bi bi-star-fill fs-6 me-1"></i>
-                                <i class="bi bi-star-fill fs-6 me-1"></i>
-                                <i class="bi bi-star-fill fs-6 me-1"></i>
-                                <i class="bi bi-star-fill fs-6 me-1"></i>
-                                <i class="bi bi-star-fill fs-6 me-1"></i>
+                            <div class="d-flex justify-content-center flex-column flex-lg-row product-rating-star">
+                                <div>
+                                    <i class="bi bi-star-fill fs-6"></i>
+                                    <i class="bi bi-star-fill fs-6"></i>
+                                    <i class="bi bi-star-fill fs-6"></i>
+                                    <i class="bi bi-star-fill fs-6"></i>
+                                    <i class="bi bi-star-fill fs-6 me-1"></i>
+                                </div>
                                 <a href="#" class="text-decoration-none align-self-center product-rating-review">3548
                                     Reviews</a>
                             </div>
@@ -94,10 +97,9 @@
                                     </div>
                                     <div id="video-container"
                                         class="d-none d-flex justify-content-center align-items-center">
-                                        <video id="main-video" controls playsinline>
-                                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                        </video>
+                                        <iframe id="main-video" src="https://player.vimeo.com/video/551517271"
+                                            frameborder="0" allowfullscreen>
+                                        </iframe>
                                     </div>
                                 </div>
                                 <div class="d-none d-md-block d-lg-none ms-2">
@@ -137,20 +139,20 @@
         <div class="col-12 col-md-6 col-lg-6">
             <div>
                 <h1 class="text-center product-card-name mt-0">Choose Your Package</h1>
-                <p class="text-center">Select your money-saving option below:</p>
+                <p class="text-center product-card-option">Select your money-saving option below:</p>
             </div>
-            <div class="row gx-2 mb-4 package-purchase-plans" id="purchaseTab" role="tablist">
+            <div class="row gx-2 mb-3 mb-md-4 package-purchase-plans" id="purchaseTab" role="tablist">
                 <div class="col-6">
-                    <button class="nav-link w-100 h-100 py-3 text-white active package-tab package-one-time"
+                    <button class="nav-link w-100 h-100 py-1 py-md-3 text-white active package-tab package-one-time"
                         id="one-time-tab" data-bs-toggle="tab" data-bs-target="#one-time" type="button" role="tab"
                         aria-controls="one-time" aria-selected="true">
                         One-Time Purchase
                     </button>
                 </div>
                 <div class="col-6 position-relative">
-                    <button class="nav-link w-100 h-100 py-3 package-tab-fifty" id="subscribe-tab" data-bs-toggle="tab"
-                        data-bs-target="#subscribe" type="button" role="tab" aria-controls="subscribe"
-                        aria-selected="false">
+                    <button class="nav-link w-100 h-100 py-1 py-md-3 package-tab-fifty" id="subscribe-tab"
+                        data-bs-toggle="tab" data-bs-target="#subscribe" type="button" role="tab"
+                        aria-controls="subscribe" aria-selected="false">
                         Subscribe & Save Up To 50%
                     </button>
                     <span id="subscribe-help">
@@ -184,7 +186,7 @@
                                 </div>
                                 <div class="flex-grow-1 package-main-content ms-3 ms-lg-0">
                                     <p class="package-main-heading">1 Pack</p>
-                                    <p class="package-sub-heading">$49</p>
+                                    <p class="package-heading-price">$49</p>
                                 </div>
                                 <div class="d-flex justify-content-center">
                                     <button
@@ -194,7 +196,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-12 col-lg-4 product-package-plan-2 p-0 p-lg-3 position-relative">
+                        <div class="col-12 col-md-12 col-lg-4 product-package-plan-2 p-0 position-relative">
                             <div class="most-popular-banner text-center d-none d-lg-block">Most Popular</div>
 
                             <div class="d-flex flex-row flex-lg-column align-items-center text-center">
@@ -204,7 +206,7 @@
                                 <div class="flex-grow-1 package-main-content ms-3 ms-lg-0">
                                     <p class="package-main-heading">3 Packs</p>
                                     <div
-                                        class="package-sub-heading d-flex d-lg-block align-items-baseline align-items-lg-start gap-1 gap-lg-0 mb-0 mb-lg-2">
+                                        class="package-sub-heading d-flex d-lg-block align-items-baseline align-items-lg-start gap-1 gap-lg-0 mb-0">
                                         <div class="mb-0 d-lg-flex flex-column">
                                             $35
                                             <span class="ms-lg-1 package-per-pack">Per
@@ -232,7 +234,7 @@
                                 <div class="flex-grow-1 package-main-content ms-3 ms-lg-0">
                                     <p class="package-main-heading mt-lg-0">6 Packs</p>
                                     <div
-                                        class="package-sub-heading d-flex d-lg-block align-items-baseline align-items-lg-start gap-1 gap-lg-0 mb-0 mb-lg-2">
+                                        class="package-sub-heading d-flex d-lg-block align-items-baseline align-items-lg-start gap-1 gap-lg-0 mb-0">
                                         <div class="mb-0 d-lg-flex flex-column">
                                             $31
                                             <span class="ms-lg-1 package-per-pack">Per
@@ -245,7 +247,7 @@
                                 </div>
                                 <div class="d-flex justify-content-center mt-lg-2">
                                     <button
-                                        class="btn btn-lg text-uppercase text-light package-button mb-lg-2 d-flex justify-content-center">
+                                        class="btn btn-lg text-uppercase text-light package-button d-flex justify-content-center">
                                         <p class="package-button-heading mb-0">Choose Flavor</p>
                                     </button>
                                 </div>
@@ -528,25 +530,36 @@
                     <h2 class="videos-title mb-5 fw-bold text-white fs-1">Product Videos</h2>
                     <div class="main-video-container mb-4 mx-auto">
                         <div class="video-wrapper">
-                            <img src="https://i.vimeocdn.com/video/738131621-005d69ec0ab0b35c9251a0af62294cfd54ba699e39599562aa00049444d1b299-d?mw=2000&mh=1126&q=70"
-                                alt="Collagen Tip Thumbnail" class="img-fluid w-100 h-100">
+                            <iframe title="Product Overview: BioTRUST Ageless Multi-Collagen Protein Powder"
+                                alt="Video product overview on BioTRUST Ageless Multi-Collagen Protein Powder"
+                                src="https://player.vimeo.com/video/299705286?playsinline=0" frameborder="0"
+                                webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""
+                                data-vimeo-tracked="true" data-ready="true">
+                            </iframe>
                         </div>
                     </div>
                     <div class="row g-0 mx-auto col-10">
                         <div class="col-md-6 col-12">
                             <div class="side-video-container mx-auto mb-4 mb-md-0 me-lg-5 text-center">
                                 <div class="video-wrapper">
-                                    <img src="https://i.vimeocdn.com/video/734215034-51881f0068f731af64d1482fe08d067fd29def2129aa4f3a69cef416e2d642d3-d?mw=1200&mh=675&q=70"
-                                        alt="Collagen Tip Thumbnail" class="img-fluid w-100 h-100">
+                                    <iframe title="Coaches Tips: Add Multi-Collagen to Your Morning Coffee"
+                                        alt="Video on coaches tips to add multi-collagen to your morning coffee"
+                                        src="//player.vimeo.com/video/296462656?portrait=0&amp;title=0&amp;byline=0&amp;playsinline=0"
+                                        frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""
+                                        allowfullscreen="" data-vimeo-tracked="true" data-ready="true">
+                                    </iframe>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="side-video-container mx-auto mb-4 mb-md-0 me-lg-5 text-center">
                                 <div class="video-wrapper">
-                                    <img src="https://i.vimeocdn.com/video/734214895-3e3b03cad934d044d9456a04538aeb0f2327ac4ba45bd85037a6c525e4ce2cbf-d?mw=1300&mh=731&q=70"
-                                        alt="Collagen Tip Thumbnail" class="img-fluid w-100 h-100">
+                                    <iframe title="Mixability Comparison: BioTRUST Collagen VS 'The Other Collagen'"
+                                        alt="Video on mixability comparison on BioTRUST Collagen vs 'The Other Collagen'"
+                                        src="//player.vimeo.com/video/296462747?portrait=0&amp;title=0&amp;byline=0&amp;?playsinline=0"
+                                        frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""
+                                        allowfullscreen="" data-vimeo-tracked="true" data-ready="true">
+                                    </iframe>
                                 </div>
                             </div>
                         </div>
@@ -619,11 +632,13 @@
                 updateActiveDot(currentImageIndex);
             });
             function updateMainMedia(index) {
-                if (index === 15) {
+                currentImageIndex = index;
+                if (index === 7) {
                     mainImage.parentElement.classList.add('d-none');
                     videoContainer.classList.remove('d-none');
                     mainVideo.currentTime = 0;
                     mainVideo.load();
+                    mainVideo.play();
                 } else {
                     videoContainer.classList.add('d-none');
                     mainImage.parentElement.classList.remove('d-none');
@@ -633,12 +648,12 @@
                 updateActiveDot(index);
             }
             function updateActiveDot(index) {
-                document.querySelectorAll('.indicator-dot').forEach(dot => {
-                    dot.classList.remove('active');
-                    if (parseInt(dot.dataset.index) === index) {
-                        dot.classList.add('active');
-                    }
-                });
+                const dots = document.querySelectorAll('#mobile-indicators .indicator-dot, #tablet-indicators .indicator-dot');
+                dots.forEach(dot => dot.classList.remove('active'));
+                const mobileActive = document.querySelector(`#mobile-indicators .indicator-dot[data-index="${index}"]`);
+                const tabletActive = document.querySelector(`#tablet-indicators .indicator-dot[data-index="${index}"]`);
+                if (mobileActive) mobileActive.classList.add('active');
+                if (tabletActive) tabletActive.classList.add('active');
             }
             const container = document.getElementById('thumb-container');
             const step = 100;
@@ -725,4 +740,5 @@
         });
     </script>
 </body>
+
 </html>
