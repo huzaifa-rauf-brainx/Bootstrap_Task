@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/CSS/index.css">
+    <link rel="icon" type="image/webp" href="assets/images/favicon.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
 <body class="page_body">
@@ -34,31 +38,66 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 order-lg-1 order-2 thumbnail-col d-flex justify-content-center">
-                        <div class="d-flex flex-column align-items-center d-lg-block d-none">
-                            <button id="thumb-up"
-                                class="border-0 bg-transparent p-0 mb-2 w-100 d-flex justify-content-center">
-                                <span class="carousel-control-prev-icon carousel-previous-icon">
-                                    <svg fill="#ECECED" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
-                                        width="100%" height="100%">
-                                        <path fill-rule="evenodd"
-                                            d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z" />
-                                    </svg>
-                                </span>
-                            </button>
-                            <div id="thumb-container" class="w-100 overflow-hidden product-sidebar-images">
-                                <div id="thumb-wrapper" class="d-flex flex-column align-items-center">
+                        <div
+                            class="d-flex flex-column align-items-center d-lg-block d-none position-relative product-container">
+                            <div class="vertical-swiper-container position-relative">
+                                <div class="nav-custom prev d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-chevron-right swiper-right swipe-prev"></i>
+                                </div>
+                                <div class="swiper vertical-swiper position-relative">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide thumbnail-slide active">
+                                            <img src="assets/images/image1.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 1">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image2.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 2">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image3.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 3">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image4.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 4">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image5.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 5">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image6.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 6">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image7.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 7">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image8.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 8">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image9.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 9">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image10.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 10">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image11.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 11">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image12.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 12">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image13.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 13">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image14.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 14">
+                                        </div>
+                                        <div class="swiper-slide thumbnail-slide">
+                                            <img src="assets/images/image15.webp" class="img-fluid h-100 w-100" alt="Product thumbnail 15">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="nav-custom next d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-chevron-right swiper-right swipe-next"></i>
                                 </div>
                             </div>
-                            <button id="thumb-down"
-                                class="border-0 bg-transparent p-0 mb-2 w-100 d-flex justify-content-center">
-                                <span class="carousel-control-prev-icon carousel-next-icon">
-                                    <svg fill="#ECECED" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
-                                        width="100%" height="100%">
-                                        <path fill-rule="evenodd"
-                                            d="M11.354 1.646a.5.5 0 0 1 0 .708L6.707 7l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z" />
-                                    </svg>
-                                </span>
-                            </button>
                         </div>
                     </div>
                     <div class="col-lg-9 order-lg-2 order-1">
@@ -79,38 +118,38 @@
                                     Reviews</a>
                             </div>
                             <div id="media-display-container"
-                                class="d-flex justify-content-center align-items-center position-relative">
-                                <div class="d-none d-md-block d-lg-none me-2">
-                                    <button id="tablet-prev" class="tablet-carousel-btn">
-                                        <i class="bi bi-chevron-left"></i>
-                                    </button>
+                                class="d-flex flex-column justify-content-center align-items-center position-relative">
+                                <div class="side-nav prev d-flex d-lg-none position-absolute">
+                                    <i class="fas fa-chevron-left mobile-prev"></i>
                                 </div>
-                                <div class="d-md-none me-1">
-                                    <button id="mobile-prev" class="tablet-carousel-btn">
-                                        <i class="bi bi-chevron-left"></i>
-                                    </button>
+                                <div class="side-nav next d-flex d-lg-none position-absolute">
+                                    <i class="fas fa-chevron-right mobile-next"></i>
                                 </div>
-                                <div id="media-display" class="media-display">
-                                    <div class="image-container">
-                                        <img id="main-image" src="assets/images/image1.webp" class="d-block"
-                                            alt="Main product image">
-                                    </div>
-                                    <div id="video-container"
-                                        class="d-none d-flex justify-content-center align-items-center">
-                                        <iframe id="main-video" src="https://player.vimeo.com/video/551517271"
-                                            frameborder="0" allowfullscreen>
-                                        </iframe>
-                                    </div>
+                                <div
+                                    class="main-image-container d-flex align-items-center justify-content-center rounded overflow-hidden">
+                                    <img src="assets/images/image1.webp" id="mainImage" class="main-image p-4"
+                                        alt="Main product image">
+                                    <iframe id="vimeo_product" src="https://player.vimeo.com/video/551517271"
+                                        frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""
+                                        allowfullscreen="" class="d-none p-4 sidebar-frame">
+                                    </iframe>
                                 </div>
-                                <div class="d-none d-md-block d-lg-none ms-2">
-                                    <button id="tablet-next" class="tablet-carousel-btn">
-                                        <i class="bi bi-chevron-right"></i>
-                                    </button>
-                                </div>
-                                <div class="d-md-none ms-1">
-                                    <button id="mobile-next" class="tablet-carousel-btn">
-                                        <i class="bi bi-chevron-right"></i>
-                                    </button>
+                                <div class="dots-nav gap-1 justify-content-center d-flex d-lg-none">
+                                    <div class="dot active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
                                 </div>
                             </div>
                             <div class="d-lg-none d-md-block d-none mt-2 mb-3 text-center">
@@ -136,20 +175,20 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-6">
-            <div>
+        <div class="col-12 col-md-6 col-lg-6 product-card-wrapper">
+            <div class="product-packge-option">
                 <h1 class="text-center product-card-name mt-0">Choose Your Package</h1>
                 <p class="text-center product-card-option">Select your money-saving option below:</p>
             </div>
-            <div class="row gx-2 mb-3 mb-md-4 package-purchase-plans" id="purchaseTab" role="tablist">
-                <div class="col-6">
+            <div class="row gx-0 mb-3 mb-md-4 package-purchase-plans" id="purchaseTab" role="tablist">
+                <div class="col-6 pe-2">
                     <button class="nav-link w-100 h-100 py-1 py-md-3 text-white active package-tab package-one-time"
                         id="one-time-tab" data-bs-toggle="tab" data-bs-target="#one-time" type="button" role="tab"
                         aria-controls="one-time" aria-selected="true">
                         One-Time Purchase
                     </button>
                 </div>
-                <div class="col-6 position-relative">
+                <div class="col-6 position-relative ps-2">
                     <button class="nav-link w-100 h-100 py-1 py-md-3 package-tab-fifty" id="subscribe-tab"
                         data-bs-toggle="tab" data-bs-target="#subscribe" type="button" role="tab"
                         aria-controls="subscribe" aria-selected="false">
@@ -164,11 +203,11 @@
                         </span>
                         <div class="bg-white rounded shadow-sm subscribe-tooltip text-center position-absolute d-none">
                             <h2 class="mb-2 tooltip-main-heading">Subscribe & Save</h2>
-                            <p class="small mb-3">When you subscribe to this BioTRUST product, you will receive <span
+                            <p class="mb-3">When you subscribe to this BioTRUST product, you will receive <span
                                     class="fw-bold">up to
                                     50% OFF plus FREE Shipping</span> on every recurring order and the price is <span
                                     class="fw-bold">guaranteed to NEVER go up!</span></p>
-                            <p class="small mb-0"><span class="fw-bold">You are never under any obligation.</span> You
+                            <p class="mb-0"><span class="fw-bold">You are never under any obligation.</span> You
                                 can easily pause or cancel
                                 Subscribe & Save at any time by phone or email, and never be billed again. Plus, you're
                                 backed by our 60-Day Money-Back Guarantee!</p>
@@ -188,7 +227,7 @@
                                     <p class="package-main-heading">1 Pack</p>
                                     <p class="package-heading-price">$49</p>
                                 </div>
-                                <div class="d-flex justify-content-center">
+                                <div class="d-flex justify-content-center package-button-main">
                                     <button
                                         class="btn btn-lg text-uppercase text-light package-button mb-lg-2 d-flex justify-content-center">
                                         <p class="package-button-heading mb-0">Choose Flavor</p>
@@ -198,7 +237,6 @@
                         </div>
                         <div class="col-12 col-md-12 col-lg-4 product-package-plan-2 p-0 position-relative">
                             <div class="most-popular-banner text-center d-none d-lg-block">Most Popular</div>
-
                             <div class="d-flex flex-row flex-lg-column align-items-center text-center">
                                 <div class="d-block d-lg-none">
                                     <img src="assets/images/buy-3-pack.avif" alt="Package Image" class="img-fluid">
@@ -217,10 +255,10 @@
                                         <p class="mb-0">(Save 29%)</p>
                                     </div>
                                 </div>
-                                <div class="d-flex flex-column align-items-center">
+                                <div class="d-flex flex-column align-items-center package-button-main">
                                     <button
                                         class="btn btn-lg text-uppercase text-light package-button mt-3 mb-2 mb-lg-2 d-flex justify-content-center">
-                                        <p class="package-button-heading mb-0">Choose Flavor</p>
+                                        <p class="package-button-heading mb-0">Choose Flavors</p>
                                     </button>
                                     <p class="mt-1 d-block d-lg-none fst-italic package-speical">Most Popular!</p>
                                 </div>
@@ -245,10 +283,10 @@
                                         <p class="mb-0">(Save 36%)</p>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-center mt-lg-2">
+                                <div class="d-flex justify-content-center mt-lg-2 package-button-main">
                                     <button
                                         class="btn btn-lg text-uppercase text-light package-button d-flex justify-content-center">
-                                        <p class="package-button-heading mb-0">Choose Flavor</p>
+                                        <p class="package-button-heading mb-0">Choose Flavors</p>
                                     </button>
                                 </div>
                             </div>
@@ -276,7 +314,7 @@
                                     </div>
                                     <div class="mb-md-0 mb-lg-2 fw-bold subscribe-free-shipping">+ FREE SHIPPING</div>
                                 </div>
-                                <div class="d-flex justify-content-center">
+                                <div class="d-flex justify-content-center package-button-main">
                                     <button
                                         class="btn btn-lg text-uppercase text-light package-button mb-lg-2 d-flex justify-content-center">
                                         <p class="package-button-heading mb-0">Choose Flavor</p>
@@ -303,10 +341,10 @@
                                     </div>
                                     <div class="mb-md-0 mb-lg-2 fw-bold subscribe-free-shipping">+ FREE SHIPPING</div>
                                 </div>
-                                <div class="d-flex justify-content-center">
+                                <div class="d-flex justify-content-center package-button-main">
                                     <button
                                         class="btn btn-lg text-uppercase text-light package-button mb-lg-2 d-flex justify-content-center">
-                                        <p class="package-button-heading mb-0">Choose Flavor</p>
+                                        <p class="package-button-heading mb-0">Choose Flavors</p>
                                     </button>
                                 </div>
                             </div>
@@ -331,10 +369,10 @@
                                     </div>
                                     <div class="mb-md-0 mb-lg-2 fw-bold subscribe-free-shipping">+ FREE SHIPPING</div>
                                 </div>
-                                <div class="d-flex flex-column align-items-center">
+                                <div class="d-flex flex-column align-items-center package-button-main">
                                     <button
                                         class="btn btn-lg text-uppercase text-light package-button mb-2 mb-lg-2 d-flex justify-content-center">
-                                        <p class="package-button-heading mb-0">Choose Flavor</p>
+                                        <p class="package-button-heading mb-0">Choose Flavors</p>
                                     </button>
                                     <p class="mt-2 d-block d-lg-none fst-italic package-speical">Most Savings!</p>
                                 </div>
@@ -346,14 +384,14 @@
             <div class="container mb-5">
                 <div class="row">
                     <section class="col-12 mx-auto community-photos-section mt-5">
-                        <h2 class="fs-5 text-center fw-bold mb-4 community-section-heading">
+                        <h2 class="text-center mb-4 community-section-heading">
                             PHOTOS FROM THE #biotrust COMMUNITY
                         </h2>
                         <div class="position-relative community-carousel-container">
                             <button class="community-arrow left-arrow">
                                 <i class="bi bi-chevron-left fs-1"></i>
                             </button>
-                            <div class="community-photos-carousel overflow-hidden">
+                            <div class="community-photos-carousel overflow-hidden w-100">
                                 <div class="community-photos d-flex">
                                     <div class="community-photo-item position-relative overflow-hidden">
                                         <img src="assets/images/bottom-img-1.webp" alt="Community photo 1"
@@ -460,8 +498,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="row g-0 features-row">
-                <div class="col-12 mb-1 mt-3">
+            <div class="row g-0 features-row mt-0">
+                <div class="col-12 mb-lg-1 mt-md-3 mt-5">
                     <div class="row g-0 text-center feature-main">
                         <div class="col-6 col-lg-3 feature-column d-flex flex-column align-items-stretch">
                             <div class="icon-container">
@@ -503,20 +541,20 @@
                     <div class="review-container p-4">
                         <div class="row g-0 d-flex flex-column flex-md-row">
                             <div class="col-md-4 review-heading position-relative pb-4 pb-md-0 pe-md-5">
-                                <h2 class="mb-4 text-white review-main-heading">FEATURED CUSTOMER REVIEW</h2>
+                                <h2 class="mb-md-4 text-white review-main-heading">FEATURED CUSTOMER REVIEW</h2>
                                 <p class="read-more"><a href="#" class="text-decoration-none read-more">Read more
                                         reviews</a></p>
                                 <div class="separator"></div>
                             </div>
                             <div class="col-md-8 review-content text-center">
-                                <div class="stars mb-3 mt-3">
-                                    <i class="bi bi-star-fill fs-3 me-1"></i>
-                                    <i class="bi bi-star-fill fs-3 me-1"></i>
-                                    <i class="bi bi-star-fill fs-3 me-1"></i>
-                                    <i class="bi bi-star-fill fs-3 me-1"></i>
-                                    <i class="bi bi-star-fill fs-3 me-1"></i>
+                                <div class="stars mb-md-3 mt-3">
+                                    <i class="bi bi-star-fill fs-3 me-md-1 star-item"></i>
+                                    <i class="bi bi-star-fill fs-3 me-md-1 star-item"></i>
+                                    <i class="bi bi-star-fill fs-3 me-md-1 star-item"></i>
+                                    <i class="bi bi-star-fill fs-3 me-md-1 star-item"></i>
+                                    <i class="bi bi-star-fill fs-3 me-md-1 star-item"></i>
                                 </div>
-                                <p class="review-text fs-4 mb-3">"I love it! No taste or smell. I put it in my coffee
+                                <p class="review-text fs-4 mb-2">"I love it! No taste or smell. I put it in my coffee
                                     first thing. Cuts my hunger and gives me energy."</p>
                                 <p class="reviewer-name fst-italic mb-1">Jacqueline T.</p>
                                 <p class="verified-buyer fw-bold">VERIFIED BUYER</p>
@@ -527,10 +565,11 @@
             </div>
             <div class="row g-0 videos-section py-5">
                 <div class="col-12 text-center">
-                    <h2 class="videos-title mb-5 fw-bold text-white fs-1">Product Videos</h2>
+                    <h2 class="videos-title mb-5 fw-bold text-white">Product Videos</h2>
                     <div class="main-video-container mb-4 mx-auto">
                         <div class="video-wrapper">
-                            <iframe title="Product Overview: BioTRUST Ageless Multi-Collagen Protein Powder"
+                            <iframe class="video-frame"
+                                title="Product Overview: BioTRUST Ageless Multi-Collagen Protein Powder"
                                 alt="Video product overview on BioTRUST Ageless Multi-Collagen Protein Powder"
                                 src="https://player.vimeo.com/video/299705286?playsinline=0" frameborder="0"
                                 webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""
@@ -542,7 +581,8 @@
                         <div class="col-md-6 col-12">
                             <div class="side-video-container mx-auto mb-4 mb-md-0 me-lg-5 text-center">
                                 <div class="video-wrapper">
-                                    <iframe title="Coaches Tips: Add Multi-Collagen to Your Morning Coffee"
+                                    <iframe class="video-frame"
+                                        title="Coaches Tips: Add Multi-Collagen to Your Morning Coffee"
                                         alt="Video on coaches tips to add multi-collagen to your morning coffee"
                                         src="//player.vimeo.com/video/296462656?portrait=0&amp;title=0&amp;byline=0&amp;playsinline=0"
                                         frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""
@@ -554,7 +594,8 @@
                         <div class="col-md-6 col-12">
                             <div class="side-video-container mx-auto mb-4 mb-md-0 me-lg-5 text-center">
                                 <div class="video-wrapper">
-                                    <iframe title="Mixability Comparison: BioTRUST Collagen VS 'The Other Collagen'"
+                                    <iframe class="video-frame"
+                                        title="Mixability Comparison: BioTRUST Collagen VS 'The Other Collagen'"
                                         alt="Video on mixability comparison on BioTRUST Collagen vs 'The Other Collagen'"
                                         src="//player.vimeo.com/video/296462747?portrait=0&amp;title=0&amp;byline=0&amp;?playsinline=0"
                                         frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""
@@ -569,109 +610,63 @@
         </div>
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const mainImage = document.getElementById('main-image');
-            const videoContainer = document.getElementById('video-container');
-            const mainVideo = document.getElementById('main-video');
-            const thumbWrapper = document.getElementById('thumb-wrapper');
-            const mobileIndicators = document.getElementById('mobile-indicators');
-            const mobilePrev = document.getElementById('mobile-prev');
-            const mobileNext = document.getElementById('mobile-next');
-            const tabletIndicators = document.getElementById('tablet-indicators');
-            const tabletPrev = document.getElementById('tablet-prev');
-            const tabletNext = document.getElementById('tablet-next');
-            const totalImages = 15;
-            let currentImageIndex = 1;
-            for (let i = 1; i <= totalImages; i++) {
-                const thumb = document.createElement('img');
-                thumb.className = 'img-thumbnail mb-2 thumb';
-                thumb.src = `assets/images/image${i}.webp`;
-                thumb.dataset.index = i;
-                thumb.addEventListener('click', () => {
-                    updateMainMedia(i);
-                });
-                thumbWrapper.appendChild(thumb);
-                const mobileDot = document.createElement('div');
-                mobileDot.className = i === 1 ? 'indicator-dot active' : 'indicator-dot';
-                mobileDot.dataset.index = i;
-                mobileDot.addEventListener('click', () => {
-                    updateMainMedia(i);
-                    updateActiveDot(i);
-                    currentImageIndex = i;
-                });
-                mobileIndicators.appendChild(mobileDot);
-                const tabletDot = document.createElement('div');
-                tabletDot.className = i === 1 ? 'indicator-dot active' : 'indicator-dot';
-                tabletDot.dataset.index = i;
-                tabletDot.addEventListener('click', () => {
-                    updateMainMedia(i);
-                    updateActiveDot(i);
-                    currentImageIndex = i;
-                });
-                tabletIndicators.appendChild(tabletDot);
+        const swiper = new Swiper('.vertical-swiper', {
+            direction: 'vertical',
+            slidesPerView: 5,
+            spaceBetween: 10
+        });
+        const thumbnails = document.querySelectorAll('.thumbnail-slide');
+        const mainImage = document.getElementById('mainImage');
+        const iframe = document.getElementById('vimeo_product');
+        const dots = document.querySelectorAll('.dot');
+        let currentIndex = 0;
+        function updateImage(index) {
+            if (index < 0) index = thumbnails.length - 1;
+            if (index >= thumbnails.length) index = 0;
+            currentIndex = index;
+            thumbnails.forEach(t => t.classList.remove('active'));
+            dots.forEach(d => d.classList.remove('active'));
+            thumbnails[currentIndex].classList.add('active');
+            dots[currentIndex].classList.add('active');
+            if (currentIndex === 6) {
+                mainImage.style.display = 'none';
+                iframe.style.display = 'block';
+                iframe.classList.remove('d-none');
+            } else {
+                mainImage.style.display = 'block';
+                iframe.style.display = 'none';
+                iframe.classList.add('d-none');
+                mainImage.src = `assets/images/image${currentIndex + 1}.webp`;
             }
-            mobilePrev.addEventListener('click', () => {
-                currentImageIndex = currentImageIndex > 1 ? currentImageIndex - 1 : totalImages;
-                updateMainMedia(currentImageIndex);
-                updateActiveDot(currentImageIndex);
-            });
-            mobileNext.addEventListener('click', () => {
-                currentImageIndex = currentImageIndex < totalImages ? currentImageIndex + 1 : 1;
-                updateMainMedia(currentImageIndex);
-                updateActiveDot(currentImageIndex);
-            });
-            tabletPrev.addEventListener('click', () => {
-                currentImageIndex = currentImageIndex > 1 ? currentImageIndex - 1 : totalImages;
-                updateMainMedia(currentImageIndex);
-                updateActiveDot(currentImageIndex);
-            });
-            tabletNext.addEventListener('click', () => {
-                currentImageIndex = currentImageIndex < totalImages ? currentImageIndex + 1 : 1;
-                updateMainMedia(currentImageIndex);
-                updateActiveDot(currentImageIndex);
-            });
-            function updateMainMedia(index) {
-                currentImageIndex = index;
-                if (index === 7) {
-                    mainImage.parentElement.classList.add('d-none');
-                    videoContainer.classList.remove('d-none');
-                    mainVideo.currentTime = 0;
-                    mainVideo.load();
-                    mainVideo.play();
-                } else {
-                    videoContainer.classList.add('d-none');
-                    mainImage.parentElement.classList.remove('d-none');
-                    mainImage.src = `assets/images/image${index}.webp`;
-                    mainVideo.pause();
-                }
-                updateActiveDot(index);
-            }
-            function updateActiveDot(index) {
-                const dots = document.querySelectorAll('#mobile-indicators .indicator-dot, #tablet-indicators .indicator-dot');
-                dots.forEach(dot => dot.classList.remove('active'));
-                const mobileActive = document.querySelector(`#mobile-indicators .indicator-dot[data-index="${index}"]`);
-                const tabletActive = document.querySelector(`#tablet-indicators .indicator-dot[data-index="${index}"]`);
-                if (mobileActive) mobileActive.classList.add('active');
-                if (tabletActive) tabletActive.classList.add('active');
-            }
-            const container = document.getElementById('thumb-container');
-            const step = 100;
-            document.getElementById('thumb-up').addEventListener('click', () => {
-                if (container.scrollTop === 0) {
-                    container.scrollTop = container.scrollHeight;
-                } else {
-                    container.scrollBy({ top: -step, behavior: 'smooth' });
-                }
-            });
-            document.getElementById('thumb-down').addEventListener('click', () => {
-                if (Math.ceil(container.scrollTop + container.clientHeight) >= container.scrollHeight) {
-                    container.scrollTop = 0;
-                } else {
-                    container.scrollBy({ top: step, behavior: 'smooth' });
-                }
+            swiper.slideTo(Math.max(0, currentIndex - 2));
+        }
+        thumbnails.forEach((thumbnail, index) => {
+            thumbnail.addEventListener('click', () => {
+                updateImage(index);
             });
         });
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                updateImage(index);
+            });
+        });
+        document.querySelector('.nav-custom.prev').addEventListener('click', () => {
+            updateImage(currentIndex - 1);
+        });
+        document.querySelector('.nav-custom.next').addEventListener('click', () => {
+            updateImage(currentIndex + 1);
+        });
+        document.querySelector('.side-nav.prev').addEventListener('click', () => {
+            updateImage(currentIndex - 1);
+        });
+        document.querySelector('.side-nav.next').addEventListener('click', () => {
+            updateImage(currentIndex + 1);
+        });
+        updateImage(0);
+
         document.addEventListener('DOMContentLoaded', function () {
             const oneTimeBtn = document.getElementById('one-time-tab');
             const subscribeBtn = document.getElementById('subscribe-tab');
